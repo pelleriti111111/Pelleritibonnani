@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurante Italiano</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Restaurante <span class="verde">Pe</span><span>le</span><span class="rojo">ti</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#">Inicio</a>
+                    <a href="#">Sobre Nosotros</a>
+                    <a href="#">Menú</a>
+                    <a href="#">Chef</a>
+                    <a href="#">Contacto</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Ciao!</h2>
+                    <a href="#platillos" class="btn bordes">Il nuestro menú</a>
+                </div>
+                <video autoplay playsinline loop muted>
+                    <source src="/assets/bg_vide.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Bienvenido a</p>
+            <h1>Restaurante Peleti</h1>
+            <p>Bienvenido a nuestro restaurante. Estamos seleccionados mundialmente por nuestros productos de calidad y atención, poseemos un ranking de 5 estrellas y una amplia variedad de platillos!
+             
+			 Los cheff están puntualmente calificados para nuestro menú.
+            </p>
+            <a href="#" class="btn btn-rojo">Contactar</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img data-src="assets/img/nosotros1.webp" alt="mujer comiendo pizza">
+            </div>
+            <div class="imagenes2">
+                <img data-src="assets/img/nosotros2.webp" alt="mujeres comiendo pizza">
+                <img data-src="assets/img/nosotros3.webp" alt="plato con pasta">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor" id="platillos">
+        <h2 class="texto-platillos">Platillos populares</h2>
+        <div class="botones-platillos">
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="ensaladas btn btn-verde">Ensaladas</button>
+            <button class="pasta btn btn-verde">Pasta</button>
+            <button class="pizza btn btn-verde">Pizza</button>
+            <button class="postres btn btn-verde">Postres</button>
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada.webp" alt="ensalada">
+                <h2>Ensalada mixta</h2>
+                <p>Lechuga romana, tomate y cebolla con un poco de aceite de oliva.
+				Sin embargo se le puede añadir a estos cuatro ingredientes un sin fin de opciones como atún, aceitunas, huevo cocido y zanahoria rallada..</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada2.webp" alt="ensalada">
+                <h2>Ensalada de frutas con requesón</h2>
+                <p>Combina trozos de piña, fresas, kiwis, y queso fresco; como aderezo añade yogur natural y miel.</p>
+                <div class="precio">
+                    <p>$55</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensaladac.jpg" alt="ensalada">
+                <h2>Ensalada César</h2>
+                <p>Lechuga, crotones (pan tostado en cubitos) queso parmesano y trozos de pechuga de pollo</p>
+                <div class="precio">
+                    <p>$39.90</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta1.webp" alt="pasta">
+                <h2>Spaghetti aglio e olio</h2>
+                <p>Esta receta tradicional de fideos con ajo y aceite de oliva, procedente de Nápoles.</p>
+                <div class="precio">
+                    <p>$41.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/aa2.jfif" alt="pasta">
+                <h2>Receta de Spaghetti a la italiana</h2>
+                <p>Spaghetti con albondigas, tomate, crema, huevo cocido, parmesano y zanahoria rallada.</p>
+                <div class="precio">
+                    <p>$60.55</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta2.webp" alt="pasta">
+                <h2>Spaghetti con nueces</h2>
+                <p>Spaghetti con nueces, crema y especias.</p>
+                <div class="precio">
+                    <p>$48.21</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza1.webp" alt="pizza">
+                <h2>Caprese</h2>
+                <p>Queso paremesano, cebolla, tomate, aceituna y cebolla.</p>
+                <div class="precio">
+                    <p>$89.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza2.webp" alt="pizza">
+                <h2>Salame</h2>
+                <p>Queso paremesano, salsa de tomate, y rodajas de salame.</p>
+                <div class="precio">
+                    <p>$95.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza22.jpg" alt="pizza">
+                <h2>Caviar Deluxe</h2>
+                <p>Caviar, hojas de menta y masa madre.</p>
+                <div class="precio">
+                    <p>$230.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres1.webp" alt="postre">
+                <h2>Le' flieme</h2>
+                <p>Mousse de dulce de leche con chocolate, nueces, almendras, y crema.</p>
+                <div class="precio">
+                    <p>$88.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres2.webp" alt="postre">
+                <h2>Mousse de chocolate</h2>
+                <p>Mousse de chocolate con merengue y una cereza.</p>
+                <div class="precio">
+                    <p>$77.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/2-3.png" alt="postre">
+                <h2>Alfajor Argentino</h2>
+                <p>Alfajor clásico argentino.</p>
+                <div class="precio">
+                    <p>$500.66</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>Comida italiana para empezar el día</h2>
+            <p>Empieza tu día comiedo deliciosa comida o un café italiano</p>
+            <a href="#" class="btn btn-verde">Ordenar ahora</a>
+        </div>
+    </div>
+
+    <section class="chef contenedor">
+        <h2>Chef ejecutivo</h2>
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3>La exelencia está en la diversidad y el modo de progresar
+                    es conocer y comparar las diversidades de productos, culturas y
+                    técnicas
+                </h3>
+                <p>Ramsay ha logrado establecer su fama con diversos platos. Su estilo de cocina es predominar en el sabor y no sobrecargar los montajes.
+				Sus platos se ven limpios, sencillos pero llenos de profesionalismo a la vez. Posee dos invenciones que los considera como sus platos firma.</p>
+                <a href="#" class="btn btn-verde">Leer Bíografia</a>
+            </div>
+            <div class="imagen-chef">
+                <img data-src="/assets/img/fotografia del chef.jpg" alt="fotografia del chef">
+            </div>
+        </div>
+    </section>
+
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto">
+            <h3>Contactanos</h3>
+            <p><i class="fas fa-map-marker-alt"></i>Av. Alvear. Roma Italia (75012)</p>
+            <p><i class="fas fa-envelope"></i> Bonanniypelleriti@isaalvear.edu.ar</p>
+            <p><i class="fas fa-phone-alt"></i>+5492625550919</p>
+            <div class="redes-sociales">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Pedro" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input type="text" placeholder="Pedro" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="+90 543 779 9410" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+            </div>
+            
+        </form>
+    </div>
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>Av. Alvear. Roma Italia (75012)</p>
+            </div>
+            <div class="info">
+                <h3>Días especiales</h3>
+                <p>Sabados y Jueves 7am - 11pm</p>
+                <p>+5492625550919</p>
+            </div>
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>Lunes - Domingo 7am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>suscribete para recibir más noticias</p>
+                <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-verde" value="Suscribirse">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2021 Risotrante Peleti, desarrollado por Pelleriti</p>
+    </footer>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
